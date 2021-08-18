@@ -110,9 +110,9 @@ term		= factor { ( "*" | "/" ) factor } .
 	* The Parser
 	* The Code Generator
 
+# The LEXERs job:
+	* It starts by taking in the free form source code and and turn it into  a series of TOKENs
 
-
- This is a a new note
 
 
 
