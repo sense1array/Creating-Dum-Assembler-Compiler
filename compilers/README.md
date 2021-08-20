@@ -112,7 +112,25 @@ term		= factor { ( "*" | "/" ) factor } .
 
 # The LEXERs job:
 	* It starts by taking in the free form source code and and turn it into  a series of TOKENs
+	  , the individual units of the language.
+
+ - WHAT IS TOKEN?
+	* A token is a pair consisting og a token name and optional attribute value.	 	    
+	* The token name is an ABSTRACT symbol representing a kind of lexical unit
+		E.G.. A particular character
+
+# The PARSERs job:
+	* Take a series of tokens and ensure that their ordering follows the rules of the syntax
+# The CODE GENERATORS job:
+	* To produce equivalent
+
+# Parsers REQUIRE tokens (The breakown)
+ - There will be a situation where the parser will drive the action
+
+	* The PARSER will call the LEXER to hand over the token
+	* To simply put it, a token is a string with an assigned and thus identified meaning.
+	
 
 
 
-
+	
